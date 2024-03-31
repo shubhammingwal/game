@@ -45,6 +45,8 @@ input {
 
 .textarea {
     height: 90px;
+    padding: 10px;
+    margin-bottom: 16px;
 }
 
 .form>.fillButton {

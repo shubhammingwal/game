@@ -113,3 +113,21 @@
     color: #505050;
     margin-top: 5px;
 }
+
+
+.fillButton {
+    margin-top: 7%;
+    
+    width: fit-content;
+    padding: 15px 38px;
+    border-radius: 43px;
+    font-size: 0.8em;
+    -webkit-text-stroke: 0.1px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+.fillButton:hover {
+    cursor: pointer;
+    box-shadow: #ff7171 2px 2px 5px 3px inset, black 2px 2px 8px -4px;
+}

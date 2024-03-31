@@ -15,12 +15,10 @@ const GetInTouch = () => {
           <input type="text" placeholder="Name" required />
           <input type="tel" placeholder="Phone Number" required />
           <input type="email" placeholder="Email" required />
-          <select name="games" id="games" required>
-            <option value="" disabled selected>Select Games</option>
-            {/* Add options for games */}
-          </select>
+          <input type="text" placeholder="Select games" required />
+          
           <textarea className="textarea" placeholder="Message" required />
-          <button className="fillButton" type="submit">Send</button>
+          <button className="fillButton" type="submit" style={{ backgroundColor: '#bf3d41' }}>Send</button>
         </form>
         <div className="mapImg">
           <img src={map} alt="map img" />

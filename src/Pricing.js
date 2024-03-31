@@ -24,7 +24,7 @@ const Pricing = () => {
                                 className="poppinsFont">Month</span></h1>
                         <p>Lorem Ipsum available, but the majority</p>
                     </div>
-                    <div className="fillButton  colorWhite">Buy Now</div>
+                    <div className="fillButton  colorWhite" style={{ backgroundColor: '#bf3d41' }}>Buy Now</div>
                 </div>
 
                 <div className="priceCard">
@@ -35,7 +35,7 @@ const Pricing = () => {
                                 className="poppinsFont">Month</span></h1>
                         <p>Lorem Ipsum available, but the majority</p>
                     </div>
-                    <div className="fillButton  colorWhite">Buy Now</div>
+                    <div className="fillButton  colorWhite" style={{ backgroundColor: '#bf3d41' }}>Buy Now</div>
                 </div>
 
                 <div className="priceCard">
@@ -46,7 +46,7 @@ const Pricing = () => {
                                 className="poppinsFont">Month</span></h1>
                         <p>Lorem Ipsum available, but the majority</p>
                     </div>
-                    <div className="fillButton  colorWhite">Buy Now</div>
+                    <div className="fillButton  colorWhite" style={{ backgroundColor: '#bf3d41' }}>Buy Now</div>
                 </div>
             </div>
         </div>

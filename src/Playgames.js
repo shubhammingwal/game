@@ -46,7 +46,7 @@ const PlayGames = () => {
                 </div>
             </div>
 
-            <div className="fillbutton">Read More</div>
+            <div className="fillButton" style={{ backgroundColor: '#bf3d41' }}>Read More</div>
         </div>
     );
 };

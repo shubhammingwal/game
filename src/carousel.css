@@ -1,0 +1,127 @@
+.carousel {
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.carousel>* {
+    animation: scale 0.3s linear normal;
+}
+
+
+/* Animation for Casino text */
+@keyframes textFill {
+
+    0% {
+        width: 0;
+    }
+
+    80% {
+        width: 100%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+.carousel>p:nth-child(1) {
+    font-size: 1.7em;
+    font-weight: 300;
+    -webkit-text-stroke: 0.2px;
+}
+
+.carousel .h1 {
+    font-size: 3.3em;
+    letter-spacing: 15px;
+    margin-left: 15px;
+    position: relative;
+    font-weight: 500;
+}
+
+.carousel .h1>div:nth-child(1) {
+    -webkit-text-stroke: 1px rgb(255, 118, 118);
+    color: transparent;
+    background-color: transparent;
+}
+
+.carousel .h1>div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    width: 0;
+    overflow: hidden;
+    border-right: 2px solid rgb(255, 118, 118);
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, #cb959500 80%, #ff919124 100%);
+    animation: textFill 2.5s linear 0.3s infinite alternate;
+}
+
+.carousel>p:nth-child(3) {
+    text-align: center;
+    width: 63%;
+    font-weight: 300;
+    font-size: 0.85em;
+    -webkit-text-stroke: 0.1px;
+    line-height: 1.5;
+    margin-top: 2%;
+    margin-bottom: 3.5%;
+    word-spacing: 1;
+}
+
+.button {
+    border: 2px solid white;
+    background-color: #333232;
+    font-weight: 300;
+    -webkit-text-stroke: 0.1px;
+    font-size: 0.85em;
+    padding: 13px 57px;
+    border-radius: 42px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button>p {
+    position: relative;
+}
+
+
+.hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 83, 83, 0.422);
+    left: 0;
+    top: 0;
+    transform: scale(0);
+    transition: all 0.3s;
+    border-radius: 45px;
+}
+
+.button:hover .hover {
+    transform: scale(1);
+}
+
+.selectorCont {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 11%;
+}
+
+.selector {
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid white; */
+    background-color: white;
+    border-radius: 100%;
+    margin: 0px 2px;
+}

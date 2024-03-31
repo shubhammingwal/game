@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './Navbar';
+import Carousel from './Carousel';
+import About from './About';
+import Games from './Games';
+import PlayGames from './Playgames';
+import Pricing from './Pricing';
+import Customer from './Customer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Carousel/>
+    <About/>
+    <Games/>
+    <PlayGames/>
+    <Pricing/>
+    <Customer/>
   </React.StrictMode>
 );
 

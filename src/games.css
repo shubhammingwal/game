@@ -1,0 +1,121 @@
+.fillButton {
+    margin-top: 7%;
+    background-color: bf3d41;
+    width: fit-content;
+    padding: 15px 38px;
+    border-radius: 43px;
+    font-size: 0.8em;
+    -webkit-text-stroke: 0.1px;
+    font-weight: 300;
+    transition: all 0.2s;
+}
+
+.fillButton:hover {
+    cursor: pointer;
+    box-shadow: #ff7171 2px 2px 5px 3px inset, black 2px 2px 8px -4px;
+}
+
+.allGames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.allGames>.pokerIconHead {
+    margin: 0;
+    margin-bottom: 1%;
+}
+
+.gamesCardCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    margin-top: 4%;
+}
+
+.gamesCard {
+    width: 263px;
+    height: fit-content;
+    color: white;
+    margin-bottom: 40px;
+    margin-right: 1%;
+    margin-left: 1%;
+    perspective: 1000px;
+}
+
+.gamesCard:hover .gamesCardImgTxt {
+    transform: rotatex(20deg);
+}
+
+.gamesCardImgTxt {
+    border-radius: 27px;
+    background-color: #121111;
+    overflow: hidden;
+    transition: all 0.2s;
+}
+
+.gamesImg {
+    position: relative;
+}
+
+.gamesIndex {
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    left: 50%;
+    /* z-index: 200; */
+    background-color: #121111;
+    border-radius: 43px;
+    font-size: 22px;
+    border: 3px solid #af3d41;
+    padding: 7px 14px;
+}
+
+.gamesCardImgTxt>h1 {
+    font-size: 1.4em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gamesCardImgTxt>p {
+    text-align: center;
+    font-size: 0.75em;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 0 5%;
+}
+
+.playButton {
+    background-color: #bf3d41;
+    width: fit-content;
+    padding: 14px 50px;
+    border-radius: 30px;
+    margin: auto;
+    font-size: 0.9em;
+    font-weight: 300;
+    -webkit-text-stroke: 0.1px;
+    margin-top: 17px;
+}
+
+.playButton:hover {
+    cursor: pointer;
+    box-shadow: #ff7171 2px 2px 5px 3px inset, black 2px 2px 8px -4px;
+}
+
+.unfillPlayButton {
+    border: 2px solid #bf3d41;
+    background-color: #121111;
+    padding: 12px 48px;
+    position: relative;
+}
+
+
+
+.unfillPlayButton:hover {
+    background-color: #bf3d41;
+}

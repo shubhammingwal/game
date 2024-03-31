@@ -1,0 +1,66 @@
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7% 0;
+}
+
+.customer>.pokerIconHead {
+    margin-bottom: 5%;
+}
+
+.customer>.pokerIconHead>h1 {
+    margin-left: 15px;
+}
+
+.customerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 75%;
+}
+
+.arrowBox {
+    background-color: #bf3d41;
+    position: absolute;
+    left: 0;
+    top: 20%;
+    padding: 1% 1.5%;
+    border-radius: 31px;
+    width: 4.5%;
+}
+
+.rightArrow {
+    left: auto;
+    right: 0;
+    transform: rotatey(180deg);
+}
+
+.customerImg {
+    width: 127px;
+    border: 2.5px solid #bf3d41;
+    border-radius: 78px;
+}
+
+.customerBox>h1 {
+    font-size: 1em;
+    margin: 1.5% 0;
+    margin-bottom: 0.9%;
+}
+
+.customerBox>p {
+    text-align: center;
+    font-size: 0.85em;
+    -webkit-text-stroke: 0.2px;
+    width: 73%;
+    line-height: 1.5;
+    color: #424242;
+}
+
+.customerBox>p>img {
+    width: 20px;
+    margin: 0 9px;
+}

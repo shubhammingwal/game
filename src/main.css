@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Wrapped every image to div therefore styling img tag width 100% */
+img {
+    width: 100%;
+}
+
+/* Global class for giving font-family to particular element */
+.poppinsFont {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Global class for width 100% */
+.width100 {
+    width: 100%;
+}
+
+/* Global class for color white */
+.colorWhite {
+    color: white;
+}
+
+/* Global class for margin 0 */
+.marginRemove {
+    margin: 0;
+}
+
+
+
+
+

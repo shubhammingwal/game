@@ -1,0 +1,289 @@
+footer {
+    width: 100%;
+    background-color: #121111e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 200px;
+}
+
+.subscribeBox {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    width: 40%;
+    padding: 2px;
+    margin-bottom: 37px;
+}
+
+.subscribeBox>input {
+    margin: 0;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.subscribeBox>p {
+    font-size: 0.9em;
+}
+
+
+
+.socialIconsBox {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons {
+    margin: 0 2px;
+    width: 17%;
+}
+
+.contactBox {
+    display: flex;
+    width: 61%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact>img {
+    width: 27px;
+}
+
+.contact>p {
+    margin-left: 23px;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.bar {
+    height: 1px;
+    width: 14%;
+    background-color: white;
+}
+
+.copyright {
+    font-size: 0.85em;
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+    color: #8e8e8e;
+}
+
+@media (max-width:695px) {
+
+    .main {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        margin: auto;
+    }
+
+    .toggleButton {
+        display: none;
+    }
+
+    .nav-items {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        padding: 14px 0;
+        background-color: #171717;
+        font-size: 0.9em;
+        transform: scale(1);
+    }
+
+    .carousel {
+        font-size: 0.8em;
+    }
+
+    .carousel>p:nth-child(3) {
+        margin-top: 4%;
+        width: 86%;
+    }
+
+    .button {
+        padding: 7px 30px;
+    }
+
+    .selector {
+        width: 13px;
+        height: 13px;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 75px;
+    }
+
+    .aboutTxt>.pokerIconHead {
+        position: absolute;
+        top: 29px;
+    }
+
+    .fillButton {
+        margin-top: 3%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutImg {
+        width: 100%;
+    }
+
+    .pStyle {
+        text-align: justify;
+    }
+
+    .allGames {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+
+    .howToPlay {
+        margin-top: 0;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .howToPlay>p {
+        width: 100%;
+    }
+
+    .playCardCont {
+        margin-bottom: 0;
+    }
+
+
+    .casinoPrice {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .casinoPrice>.pStyle {
+        width: 100%;
+    }
+
+    .customer {
+        padding-left: 6%;
+        padding-right: 6%;
+        margin: 0;
+    }
+
+    .customer>.pokerIconHead {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .customer>.pokerIconHead>h1 {
+        margin-left: 3px;
+        font-size: 1.5em;
+    }
+
+    .customerBox {
+        width: 100%;
+    }
+
+    .customerBox>h1 {
+        margin: 2% 0;
+    }
+
+    .customerBox>p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .customerBox>p:nth-child(4) {
+        text-align: center;
+    }
+
+    .getInTouch {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .formBox {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 21px;
+        top: 59px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .form>.fillButton {
+        margin: auto;
+    }
+
+    .mapImg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    footer {
+        padding-top: 85px;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .subscribeBox {
+        width: auto;
+    }
+
+    .contactBox {
+        flex-direction: column;
+        align-items: start;
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        margin-bottom: 10px;
+    }
+
+    .contact>img {
+        width: 18px;
+    }
+
+    .contact>p {
+        margin-left: 5px;
+    }
+
+    .bar {
+        width: 175px;
+    }
+
+    .copyright {
+        font-size: .7em;
+        margin-top: 7%;
+        margin-bottom: 4%;
+        padding-bottom: 40px;
+    }
+
+}

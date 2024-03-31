@@ -19,30 +19,54 @@ const PlayGames = () => {
                 suffered alteration in some form, by injected humour, or randomised words which don't look even
                 slightly believable</p>
 
-            <div className="playCardCont">
+            <div className="playCardCont">               
                 <div className="playCard">
-                    <div className="playCardImg">
-                        <img src={play1} alt="play icon" />
-                    </div>
-                    <p>Register Info</p>
+                    <a href="#" className="top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div className="playCardImg">
+                            <img src={play1} alt="play icon" />
+                            <p>Register Info</p>
+                        </div>
+                    </a>
                 </div>
                 <div className="playCard">
-                    <div className="playCardImg">
-                        <img src={play2} alt="play icon" />
-                    </div>
-                    <p>Deposit Your Money</p>
+                    <a href="#" className="top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div className="playCardImg">
+                            <img src={play2} alt="play icon" />
+                            <p>Deposit Your Money</p>
+                        </div>
+                    </a>
                 </div>
                 <div className="playCard">
-                    <div className="playCardImg">
-                        <img src={play3} alt="play icon" />
-                    </div>
-                    <p>14 Days Free</p>
+                    <a href="#" className="top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div className="playCardImg">
+                            <img src={play3} alt="play icon" />
+                            <p>14 Days Free</p>
+                        </div>
+                    </a>
                 </div>
                 <div className="playCard">
-                    <div className="playCardImg" style={{padding: '28px 59px'}}>
-                        <img src={play4} alt="play icon" />
-                    </div>
-                    <p>Play Online</p>
+                    <a href="#" className="top">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div className="playCardImg">
+                            <img src={play4} alt="play icon" />
+                            <p>Play Online</p>
+                        </div>
+                    </a>
                 </div>
             </div>
 

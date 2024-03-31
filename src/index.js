@@ -9,6 +9,7 @@ import Games from './Games';
 import PlayGames from './Playgames';
 import Pricing from './Pricing';
 import Customer from './Customer';
+import GetInTouch from './GetInTouch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
     <PlayGames/>
     <Pricing/>
     <Customer/>
+    <GetInTouch/>
   </React.StrictMode>
 );
 

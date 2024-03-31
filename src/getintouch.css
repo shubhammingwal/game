@@ -1,0 +1,60 @@
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.getInTouch>.pokerIconHead>h1 {
+    font-size: 1.8em;
+    margin-left: 4px;
+}
+
+.getInTouch>.pokerIconHead {
+    margin-bottom: 0%;
+}
+
+.formBox {
+    display: flex;
+    /* flex-direction: column; */
+    width: 77%;
+    justify-content: space-between;
+    padding: 31px;
+    border-radius: 23px;
+    box-shadow: 0px 0px 7px -4px black;
+    background-color: white;
+    position: relative;
+    top: 74px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+}
+
+input {
+    border-radius: 0;
+    outline: none;
+    border: 1px solid #505050b5;
+    padding: 7px 10px;
+    margin-bottom: 16px;
+}
+
+.textarea {
+    height: 90px;
+}
+
+.form>.fillButton {
+    color: white;
+    border: none;
+    padding: 13px 59px;
+    margin-top: 0px;
+    font-size: 0.9em;
+}
+
+.mapImg {
+    width: 42%;
+}

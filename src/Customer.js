@@ -6,6 +6,9 @@ import customerImg from './images/customer-img.png';
 import leftQuote from './icons/left-quote.png';
 import rightQuote from './icons/right-quote.png';
 import arrow from './images/arrow.png';
+
+
+
 const Customer = () => {
   return (
     <div className="customer" id="review">
@@ -38,3 +41,4 @@ const Customer = () => {
 }
 
 export default Customer;
+

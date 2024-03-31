@@ -6,10 +6,10 @@ import pokerIcon from './icons/poker-icon.png';
 
 const Pricing = () => {
     return (
-        <div className="casinoPrice" id="price">
+        <div className="gamePrice" id="price">
             <div className="pokerIconHead">
                 <img className="pokerIcon" src={pokerIcon} alt="poker icon" />
-                <h1>Our Casino Price</h1>
+                <h1>Our GAMES Price</h1>
             </div>
             <p className="pStyle">There are many variations of passages of Lorem Ipsum available, but the majority have
                 suffered alteration in some form, by injected humour, or randomised words which don't look even

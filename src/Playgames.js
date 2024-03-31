@@ -13,7 +13,7 @@ const PlayGames = () => {
         <div className="howToPlay colorWhite" id="play">
             <div className="pokerIconHead">
                 <img className="pokerIcon" src={pokerIcon} alt="poker icon" />
-                <h1>HOW TO PLAY CASINO</h1>
+                <h1>HOW TO PLAY GAMES</h1>
             </div>
             <p className="pStyle">There are many variations of passages of Lorem Ipsum available, but the majority have
                 suffered alteration in some form, by injected humour, or randomised words which don't look even

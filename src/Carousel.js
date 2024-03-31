@@ -1,12 +1,12 @@
 import React from 'react';
-import './main.css'; // Import CSS file for styling
+import './main.css';
 import './carousel.css';
 import backgroundImage from './images/background-image.jpg';
 const Carousel = () => {
     return (
         <div className="carousel width100 colorWhite" id="home" style={{ backgroundImage: `url(${backgroundImage})` }}>
             <p>WELCOME TO</p>
-            <div className="h1"><div>CASINO</div><div>CASINO</div></div>
+            <div className="h1"><div>GAMING</div><div>GAMING</div></div>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when
                 looking at its layout. The point of using Lorem Ipsum</p>
             {/* hover class for transition effect */}

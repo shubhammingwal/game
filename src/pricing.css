@@ -1,4 +1,4 @@
-.casinoPrice {
+.gamePrice {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,15 +6,15 @@
     text-align: center;
 }
 
-.casinoPrice>.pokerIconHead {
+.gamePrice>.pokerIconHead {
     margin-bottom: 1.8%;
 }
 
-.casinoPrice>.pokerIconHead>h1 {
+.gamePrice>.pokerIconHead>h1 {
     font-size: 1.8em;
 }
 
-.casinoPrice>.pStyle {
+.gamePrice>.pStyle {
     width: 65%;
     line-height: 1.5;
     color: #505050;

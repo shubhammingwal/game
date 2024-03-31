@@ -11,7 +11,7 @@ const About = () => {
             <div className="aboutTxt">
                 <div className="pokerIconHead">
                     <img className="pokerIcon" src={pokerIcon} alt="poker icon" />
-                    <h1>ABOUT OUR CASINO</h1>
+                    <h1>ABOUT OUR GAMES</h1>
                 </div>
                 <p className="pStyle">It is a long established fact that a reader will be distracted by the readable content
                     of a page when

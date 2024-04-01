@@ -215,3 +215,7 @@ a span:nth-child(4){
     font-weight: 300;
     -webkit-text-stroke: 0.1px;
 }
+
+img {
+    width: 100%;
+}

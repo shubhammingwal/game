@@ -60,3 +60,7 @@ input {
 .mapImg {
     width: 42%;
 }
+
+img {
+    width: 100%;
+}

@@ -119,3 +119,7 @@
 .unfillPlayButton:hover {
     background-color: #bf3d41;
 }
+
+img {
+    width: 100%;
+}

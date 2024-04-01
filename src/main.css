@@ -16,9 +16,7 @@ a {
 
 
 /* Wrapped every image to div therefore styling img tag width 100% */
-img {
-    width: 100%;
-}
+
 
 /* Global class for giving font-family to particular element */
 .poppinsFont {

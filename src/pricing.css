@@ -131,3 +131,7 @@
     cursor: pointer;
     box-shadow: #ff7171 2px 2px 5px 3px inset, black 2px 2px 8px -4px;
 }
+
+img {
+    width: 100%;
+}

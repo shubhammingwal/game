@@ -76,6 +76,11 @@ nav {
     transform: scale(0);
     transition: all 0.5s;
 }
+@media (max-width: 695px) {
+    .nav-items {
+        display: none
+    }
+  }
 
 
 .nav-items>a>div {
